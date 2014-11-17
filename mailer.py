@@ -12,6 +12,8 @@ if len(sys.argv) < 3:
         print "Or Usage: " + sys.argv[0] + " <host> <port> <fromaddr> <toaddr> <subject>"
         print "Or Usage: " + sys.argv[0] + " <host> <port> <fromaddr> <toaddr> <subject> [msg file path]"
         print "Or Usage: " + sys.argv[0] + " <host> <port> <fromaddr> <to addrs file> <subject> [msg file path]"
+        print "Or Usage: " + sys.argv[0] + " <host> <port> <headers file> <to addr> [msg file path]"
+        print "Or Usage: " + sys.argv[0] + " <host> <port> <headers file> <to addrs file> [msg file path]"
         sys.exit(0)
 elif len(sys.argv) > 3:
         if "@" in sys.argv[3]:
